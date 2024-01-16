@@ -203,8 +203,12 @@ we can call reset method which we'll get from errorboundry props, and we can cal
 # Handling Errors in Nested Routes
 1. Errors bubble up to the closest parent error boundary
 2. An error.tsx file will cater to errors for all its nested child segments
-3. By positioning error.tsx files at different levels in the nested folders of a route, you
-4. can achieve a more granular level of error handling
+3. By positioning error.tsx files at different levels in the nested folders of a route, you can achieve a more granular level of error handling
+
+# Handling Errors in Layouts
+1. An error.tsx file will handle errors for all its nested child segments
+2. The error boundary does not catch errors thrown here because it's nested inside the layouts component
+3. to catch the error from layout, move the error.tsx inside the parent folder
 
 
 

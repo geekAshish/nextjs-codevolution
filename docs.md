@@ -212,3 +212,15 @@ we can call reset method which we'll get from errorboundry props, and we can cal
 
 
 
+# Advance routing concepts
+
+# Parallel Routes contd.
+https://youtu.be/8I5-OTNOni0?si=OfD2bVLj0X7h6dkU
+* Parallel routes in Next.js are defined using a feature known as slots
+1. Slots help structure our content in a modular fashion
+2. To define a slot, we use the '@folder' naming convention
+3. Each slot is then passed as a prop to its corresponding 'layout.tsx• file.
+
+* it does not affect the route structure
+
+

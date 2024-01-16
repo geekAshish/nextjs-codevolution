@@ -200,7 +200,11 @@ Add functionality to attempt to recover from an error without a full page reload
 ## Recovering from Errors
 we can call reset method which we'll get from errorboundry props, and we can call it to recover
 
-
+# Handling Errors in Nested Routes
+1. Errors bubble up to the closest parent error boundary
+2. An error.tsx file will cater to errors for all its nested child segments
+3. By positioning error.tsx files at different levels in the nested folders of a route, you
+4. can achieve a more granular level of error handling
 
 
 

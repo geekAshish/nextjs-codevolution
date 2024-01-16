@@ -197,6 +197,10 @@ Isolate errors to affected segments while keeping the rest of the application fu
 
 Add functionality to attempt to recover from an error without a full page reload
 
+## Recovering from Errors
+we can call reset method which we'll get from errorboundry props, and we can call it to recover
+
+
 
 
 

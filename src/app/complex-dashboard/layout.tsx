@@ -18,7 +18,7 @@ const DashboardLayout = ({children, users, portfolio, notification}:
       <div>portfolio</div>
 
       {/* you could achieve same thing with the parallel routes */}
-      <div>
+      <div className='flex gap-5'>
         <div>{users}</div>
         <div>{notification}</div>
         <div>{portfolio}</div>

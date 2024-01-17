@@ -1,8 +1,14 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Notification = () => {
   return (
-    <div>Notification</div>
+    <div>
+      <div>
+        Notification
+      </div>
+      <Link href={'/complex-dashboard/archived'}>Archived Notifications</Link>
+    </div>
   )
 }
 

@@ -220,7 +220,28 @@ https://youtu.be/8I5-OTNOni0?si=OfD2bVLj0X7h6dkU
 1. Slots help structure our content in a modular fashion
 2. To define a slot, we use the '@folder' naming convention
 3. Each slot is then passed as a prop to its corresponding 'layout.tsx• file.
+4. children(page.tsx) it self a slot
 
 * it does not affect the route structure
+
+
+# Unmatched Routes
+sub-navigation in routes contd.
+
+
+## Navigation from the IJI
+
+1. In the case of navigation within the UI, Next.js retains the previously active state of a slot regardless of changes in the URL.
+
+* Page reload
+1. Next.js immediately searches for a default.tsx file within each unmatched slot (in our case @children, @user, @portfoliio)
+2. The presence of this file is critical, as it provides the default content that Next.js
+will render in the user interface
+3. If this default.tsx file is missing in any of the unmatched slots for the current route,
+Next.js will render a 404 error.
+
+
+
+
 
 

@@ -247,3 +247,18 @@ Next.js will render a 404 error.
 
 # conditional routes
 
+
+
+# Intercepting Routes
+1. Intercepting routes allow you to intercept or stop the default routing behaviour to present an alternate view or component when navigating through the IJI, while still preserving the intended route for scenarios like page reloads
+2. This can be useful if you want to show a route while keeping the context of the current page
+
+## Intercepting Routes Conventions
+(.) to match segments on the same level
+(..) to match segments one level above
+(..)(..) to match segments two levels above
+(...) to match segments from the root app directory
+
+
+
+

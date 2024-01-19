@@ -5,4 +5,5 @@ const ComplexDashboardPage = () => {
   )
 }
 
-export default ComplexDashboardPage
+export default ComplexDashboardPage;
+

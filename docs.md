@@ -240,8 +240,10 @@ will render in the user interface
 3. If this default.tsx file is missing in any of the unmatched slots for the current route,
 Next.js will render a 404 error.
 
+* default.tsx
+1. The 'default.tsx' file in Nextjs serves as a fallback to render content when the framework cannot retrieve a slot's active state from the current URL
+2. You have complete freedom to define the IJI for unmatched routes: you can either mirror the content found in page.tsx or craft an entirely custom view
 
 
-
-
+# conditional routes
 

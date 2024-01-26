@@ -211,7 +211,7 @@ we can call reset method which we'll get from errorboundry props, and we can cal
 3. to catch the error from layout, move the error.tsx inside the parent folder
 
 
-
+# #############################################################################
 # Advance routing concepts
 
 # Parallel Routes contd.
@@ -259,6 +259,9 @@ Next.js will render a 404 error.
 (..)(..) to match segments two levels above
 (...) to match segments from the root app directory
 
+
+# Parallel Intercepting Routes
+https://youtu.be/mVOvx9eVHg0?si=iL6xeAfYGBKXoj-2
 
 
 

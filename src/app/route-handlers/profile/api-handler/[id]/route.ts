@@ -17,3 +17,10 @@ export async function PATCH(request: Request, {params}: {params: {id: string}}) 
   return Response.json(userDetails[index]);
 }
 
+export async function DELETE(request: Request, {params}: {params: {id: string}}) {
+  const index = userDetails.findIndex(user => user.id === parseInt(params.id));
+  const userDeleted = userDetails[index];
+  userDetails.splice(index, 1);
+
+  return Response.json(userDeleted);
+}

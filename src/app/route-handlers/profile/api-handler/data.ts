@@ -13,7 +13,7 @@ export const userDetails: UserDetails[] = [
     name: 'Kakashi'
   },
   {
-    id: 2,
+    id: 3,
     name: 'Saturo'
   },
 ]

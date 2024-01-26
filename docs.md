@@ -273,3 +273,6 @@ https://youtu.be/mVOvx9eVHg0?si=iL6xeAfYGBKXoj-2
 5. Route handlers are also great for making external API requests
 6. Route handlers run server-side, ensuring that sensitive information like private keys remains secure and never gets shipped to the browser
 7. Route Handlers are the equivalent of API routes in Page router
+
+
+

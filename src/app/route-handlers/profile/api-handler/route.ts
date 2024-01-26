@@ -5,6 +5,7 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
+  // accessing the request body
   const user = await request.json()
 
   const newUser = {

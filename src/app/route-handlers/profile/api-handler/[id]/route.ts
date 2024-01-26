@@ -1,7 +1,13 @@
+import { redirect } from "next/navigation";
 import { userDetails } from "../data"
 
 // dynamic route handler
 export async function GET(request: Request, {params}: {params: {id: string}}) {
+
+  if(userDetails.length < parseInt(params.id)){
+    redirect('/route-handlers/profile/api-handler')
+  }
+  
   const user = userDetails.find(user => user.id === parseInt(params.id))
   return Response.json(user);
 }
